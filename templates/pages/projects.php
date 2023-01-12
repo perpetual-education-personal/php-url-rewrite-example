@@ -6,7 +6,7 @@
 
 		<ul>
 			<li>
-				<a href='/projects/project-name'>Project-name</a>
+				<a href='projects/project-name'>Project-name</a>
 			</li>
 		</ul>
 
