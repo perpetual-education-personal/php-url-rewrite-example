@@ -57,10 +57,37 @@ So, the best idea for that so far was to make a different folder or just prepend
 
 Now that ^ worked. But the next part of the puzzle... is that the path / (the local path vs the path up on the server -- aren't the same etc) -- so, we'll need a way to either set that root with base - - or have some function that sets the path and use that for all the paths and allows them to behave like relative paths  / so that the site can be moved to any server and still work.
 
+
 ## How do you know when it works?
 
-* [ ] it works.
+* [x] All of the links work
 
+* [x] All assets like CSS are propertly linked to and loaded on sub pages etc
+
+* [x] It works locally and can be setup in any folder on a server
+
+
+## What were the important concepts
+
+* [x] We need Apache and .htaccess to do the rewrites
+
+* [x] The server needs to support that (hosting company)
+
+* [x] The paths need to be changed back to `/path-name` and rewritten to query-string-style
+
+* [x] We need to know the syntax to write the rewrites
+
+* [x] Rewrites need to manually be put in place (unless you have other ideas)
+
+* [x] We need to set the path based on the environment (note host and subfolder / relative paths etc.)
+
+* [x] We can create a configuration file like a dot-env type thing to store the full path for the given environment in a variable
+
+* [x] We can use that variable to set the base path
+
+* [x] The config file can be ignored and left up to the person setting up the project on a different host (like wp-config for example) - and leave an example-config.php to lead them to create a config.php
+
+* [ ] Anything else?
 
 
 
