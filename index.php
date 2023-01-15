@@ -2,12 +2,11 @@
 
 <?php renderTemplate(); ?>
 
-<?php
-	echo dirname($_SERVER['SCRIPT_NAME']);
-?>
 <br>
 
-<?=dirname($_SERVER['SCRIPT_NAME'])?>
-
+<p>
+	dirname($_SERVER['SCRIPT_NAME'])  <br />
+	is: <code><?=dirname($_SERVER['SCRIPT_NAME'])?></code>
+</p>
 
 <?php include('footer.php'); ?>
