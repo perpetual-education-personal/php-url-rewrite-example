@@ -8,7 +8,7 @@
 	<head>
 		<title>todo-app</title>
 		<meta name='viewport' content='width=device-width, initial-scale=1' />
-		<base href="<?=BASE_URL?>">
+		<base href="<?=dirname($_SERVER['SCRIPT_NAME'])?>">
 
 		<link rel="stylesheet" href="css/site.css" />
 	</head>
