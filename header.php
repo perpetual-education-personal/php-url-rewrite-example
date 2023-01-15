@@ -8,8 +8,9 @@
 	<head>
 		<title>todo-app</title>
 		<meta name='viewport' content='width=device-width, initial-scale=1' />
-		
-		<link rel="stylesheet" href="<?=BASE_URL?>/css/site.css" />
+		<base href="<?=BASE_URL?>">
+
+		<link rel="stylesheet" href="/css/site.css" />
 	</head>
 	<body>
 		<header>
